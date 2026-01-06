@@ -1,0 +1,36 @@
+{
+  "name": "website-event-recorder",
+  "version": "1.0.0",
+  "description": "Record website interactions, API calls, and generate AI-ready backend analysis reports",
+  "main": "src/index.js",
+  "bin": {
+    "web-recorder": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "record": "node src/index.js",
+    "example": "node examples/basic-usage.js",
+    "install-browsers": "npx playwright install chromium"
+  },
+  "keywords": [
+    "playwright",
+    "cdp",
+    "api-recorder",
+    "web-scraping",
+    "event-tracking"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.40.0",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

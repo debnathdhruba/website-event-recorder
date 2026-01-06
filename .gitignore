@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Recordings
+recordings/*
+!recordings/.gitkeep
+
+# Environment
+.env
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Playwright
+playwright-report/
+test-results/
